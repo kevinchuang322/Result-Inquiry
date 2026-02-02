@@ -1,3 +1,9 @@
+"use client"; // 必須加在第一行，而且要加引號
+
+import { useState, useEffect } from 'react'; // 之後才是你的 import
+import { supabase } from '@/lib/supabase';
+// ... 剩下的程式碼
+
 export const dynamic = 'force-dynamic'
 
 'use client'
